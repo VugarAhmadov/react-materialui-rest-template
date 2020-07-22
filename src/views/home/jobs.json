@@ -1,0 +1,57 @@
+[
+    {
+        "id": "1",
+        "title": "Bilingual Event Support Specialist",
+        "location": "Baku",
+        "posted": "2 days ago",
+        "company": {
+            "name": "Hexagon",
+            "logo": "",
+            "verified": true
+        }
+    },
+    {
+        "id": "2",
+        "title": "Competition Law Officer",
+        "location": "Baku",
+        "posted": "2 days ago",
+        "company": {
+            "name": "Laxo",
+            "logo": "",
+            "verified": false
+        }
+    },
+    {
+        "id": "3",
+        "title": "Barista and Cashier",
+        "location": "Baku",
+        "posted": "2 days ago",
+        "company": {
+            "name": "Coffee",
+            "logo": "",
+            "verified": false
+        }
+    },
+    {
+        "id": "4",
+        "title": "Restaurant General Manager",
+        "location": "Baku",
+        "posted": "2 days ago",
+        "company": {
+            "name": "King",
+            "logo": "",
+            "verified": true
+        }
+    },
+    {
+        "id": "5",
+        "title": "International Marketing Coordinator",
+        "location": "Baku",
+        "posted": "2 days ago",
+        "company": {
+            "name": "Skyist",
+            "logo": "",
+            "verified": false
+        }
+    }
+]

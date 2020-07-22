@@ -1,0 +1,23 @@
+version: '3.7'
+
+services:
+  web:
+    build:
+      context: .
+      args: 
+        - REACT_APP_API_URL=${REACT_APP_API_URL}
+        - REACT_APP_GA=${REACT_APP_GA}
+    image: {yourdomain}/web-${APP_ENV}:1.0.0
+    container_name: {yourdomain}-web-${APP_ENV}
+    restart: unless-stopped
+    networks: 
+      - reverse-proxy
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.{yourdomain}-web-${APP_ENV}.rule=Host(`${WEB_HOST}`)
+      - traefik.http.routers.{yourdomain}-web-${APP_ENV}.entrypoints=websecure
+      - traefik.http.routers.{yourdomain}-web-${APP_ENV}.tls.certresolver=leresolver
+
+networks:
+  reverse-proxy:
+    external: true

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "icon": "code",
+    "counter": "612",
+    "title": "Web & Software Dev",
+    "content": "Software Engineer, Web / Mobile Developer & More"
+  },
+  {
+    "id": 2,
+    "icon": "cloud_upload",
+    "counter": "113",
+    "title": "Data Science & Analitycs",
+    "content": "Data Specialist / Scientist, Data Analyst & More"
+  },
+  {
+    "id": 3,
+    "icon": "work_outline",
+    "counter": "186",
+    "title": "Accounting & Consulting",
+    "content": "Auditor, Accountant, Fnancial Analyst & More"
+  },
+  {
+    "id": 4,
+    "icon": "edit",
+    "counter": "298",
+    "title": "Writing & Translations",
+    "content": "Copywriter, Creative Writer, Translator & More"
+  },
+  {
+    "id": 5,
+    "icon": "pie_chart",
+    "counter": "549",
+    "title": "Sales & Marketing",
+    "content": "Brand Manager, Marketing Coordinator & More"
+  },
+  {
+    "id": 6,
+    "icon": "image",
+    "counter": "873",
+    "title": "Graphics & Design",
+    "content": "Creative Director, Web Designer & More"
+  },
+  {
+    "id": 7,
+    "icon": "volume_up",
+    "counter": "125",
+    "title": "Digital Marketing",
+    "content": "Darketing Analyst, Social Profile Admin & More"
+  },
+  {
+    "id": 8,
+    "icon": "menu_book",
+    "counter": "445",
+    "title": "Education & Training",
+    "content": "Advisor, Coach, Education Coordinator & More"
+  }
+]
